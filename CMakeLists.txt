@@ -7,3 +7,5 @@ add_executable(study_c main.c)
 
 add_executable(file file/file.c)
 add_executable(cwd file/cwd.c)
+
+add_subdirectory(libcurl)
