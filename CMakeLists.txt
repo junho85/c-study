@@ -9,3 +9,7 @@ add_executable(file file/file.c)
 add_executable(cwd file/cwd.c)
 
 add_subdirectory(libcurl)
+add_subdirectory(libconfig)
+
+add_subdirectory(time)
+add_subdirectory(jansson_json)
