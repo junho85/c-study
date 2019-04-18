@@ -11,5 +11,6 @@ add_executable(cwd file/cwd.c)
 add_subdirectory(libcurl)
 add_subdirectory(libconfig)
 
+add_subdirectory(getopt)
 add_subdirectory(time)
 add_subdirectory(jansson_json)
